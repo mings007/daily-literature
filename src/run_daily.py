@@ -10,6 +10,8 @@ import json
 import os
 import sys
 
+import yaml
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "src")
 if SRC not in sys.path:
@@ -21,6 +23,16 @@ import digest
 import rss_watch
 import score
 import search
+
+
+def delivery_secret(env):
+    """按 config.yaml 决定是否带签名。
+    你的机器人用「自定义关键词」，use_signature=false，即使环境里有 FEISHU_SECRET 也忽略它。"""
+    with open(os.path.join(ROOT, "config.yaml"), encoding="utf-8") as f:
+        config = yaml.safe_load(f)
+    if not config.get("delivery", {}).get("use_signature", False):
+        return None
+    return env.get("FEISHU_SECRET") or None
 
 
 def merge_and_filter():
@@ -57,7 +69,7 @@ def main():
         result = deliver.send_message(
             "云端文献追踪测试消息：密钥配置成功，链路已打通！",
             webhook,
-            env.get("FEISHU_SECRET") or None,
+            delivery_secret(env),
         )
         print("飞书返回：", result)
         return
@@ -96,7 +108,7 @@ def main():
         with open(digest.DIGEST_PATH, encoding="utf-8") as f:
             text = f.read()
         result = deliver.send_message(
-            text, webhook, env.get("FEISHU_SECRET") or None
+            text, webhook, delivery_secret(env)
         )
         print("飞书返回：", result)
 
