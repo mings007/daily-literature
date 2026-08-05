@@ -63,4 +63,5 @@ delivery:
 
 archive:
   enabled: true
-  root: "CHANGE_ME"     # 归档路径，例如 Obsidian vault 下的 raw/文献库
+  root: "D:/文献库/文献追踪"   # 本地 Obsidian 归档路径（本地运行时笔记直写这里；
+                              # 云端运行自动回退到仓库 data/archive，不影响网页版）

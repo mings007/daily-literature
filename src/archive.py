@@ -116,6 +116,16 @@ def build_index(archive_root):
     return entries
 
 
+def merge_indexes(roots):
+    """合并多个归档目录的索引，按 DOI 去重（后面的覆盖前面的）"""
+    by_doi = {}
+    for root in roots:
+        for entry in build_index(root):
+            if entry.get("doi"):
+                by_doi[entry["doi"]] = entry
+    return sorted(by_doi.values(), key=lambda e: e.get("date", ""), reverse=True)
+
+
 def main():
     config = load_config()
     selected = json.load(open(SELECTED_PATH, encoding="utf-8"))
@@ -124,6 +134,10 @@ def main():
     if not archive_root or archive_root == "CHANGE_ME":
         archive_root = os.path.join(ROOT, "data", "archive")
         print("提示：config.yaml 的 archive.root 还是 CHANGE_ME，先归档到本地 data/archive/")
+    elif ":" in archive_root and os.name != "nt":
+        # 云端（Linux）上出现 Windows 本地路径时，自动回退到仓库内归档
+        print("提示：archive.root 是本地 Windows 路径，云端运行自动回退到 data/archive/")
+        archive_root = os.path.join(ROOT, "data", "archive")
 
     today = datetime.date.today().isoformat()
     day_dir = os.path.join(archive_root, today)
@@ -149,7 +163,11 @@ def main():
     # 同步更新网页版历史记录的数据文件
     index_path = os.path.join(ROOT, "docs", "index.json")
     os.makedirs(os.path.dirname(index_path), exist_ok=True)
-    entries = build_index(archive_root)
+    repo_archive = os.path.join(ROOT, "data", "archive")
+    roots = [repo_archive]
+    if os.path.normpath(archive_root) != os.path.normpath(repo_archive) and os.path.exists(archive_root):
+        roots.append(archive_root)
+    entries = merge_indexes(roots)
     with open(index_path, "w", encoding="utf-8") as f:
         json.dump(entries, f, ensure_ascii=False, indent=2)
     print("网页版历史已更新：docs/index.json（共 {} 条）".format(len(entries)))
