@@ -61,7 +61,13 @@ def send_message(text, webhook_url, secret=None):
         headers={"Content-Type": "application/json"},
     )
     with urllib.request.urlopen(request, timeout=15) as response:
-        return json.loads(response.read().decode("utf-8"))
+        result = json.loads(response.read().decode("utf-8"))
+    # 飞书的业务错误码：code != 0 表示消息其实没发出去（例如自定义关键词不匹配）
+    if result.get("code") != 0:
+        raise RuntimeError(
+            "飞书发送失败：{}（code={}）".format(result.get("msg"), result.get("code"))
+        )
+    return result
 
 
 if __name__ == "__main__":

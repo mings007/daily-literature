@@ -75,8 +75,10 @@ def main():
     env = deliver.load_env()
     webhook = env.get("WEBHOOK_URL", "")
     if not webhook:
-        print("没有配置 WEBHOOK_URL，跳过推送（日报已保存在 data/digest.md）")
+        print("没有配置 WEBHOOK_URL（检查 GitHub 密钥或本地 .env），跳过推送。")
+        print("日报已保存在 data/digest.md，可手动查看。")
     else:
+        print("Webhook 已配置，正在发送……")
         with open(digest.DIGEST_PATH, encoding="utf-8") as f:
             text = f.read()
         result = deliver.send_message(
