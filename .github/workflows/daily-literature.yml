@@ -2,8 +2,8 @@ name: 每日文献日报
 
 on:
   schedule:
-    # GitHub Actions 的 cron 使用 UTC 时间：北京时间 08:30 = UTC 00:30
-    - cron: '30 0 * * *'
+    # GitHub Actions 的 cron 使用 UTC 时间：北京时间 07:30 = UTC 23:30（前一天）
+    - cron: '30 23 * * *'
   workflow_dispatch:  # 支持在 GitHub 网页上手动触发，方便先测试
 
 permissions:
