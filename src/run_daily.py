@@ -52,8 +52,8 @@ def main():
         env = deliver.load_env()
         webhook = env.get("WEBHOOK_URL", "")
         if not webhook:
-            print("没有配置 WEBHOOK_URL（检查 GitHub 密钥或本地 .env），无法发送测试消息。")
-            return
+            print("ERROR: 没有配置 WEBHOOK_URL（检查 GitHub 密钥或本地 .env），无法发送测试消息。")
+            sys.exit(1)
         result = deliver.send_message(
             "云端文献追踪测试消息：密钥配置成功，链路已打通！",
             webhook,
