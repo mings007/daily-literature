@@ -104,3 +104,11 @@ FEISHU_SECRET=你复制的那串密钥（没选加签就留空）
 把 `config.yaml` 里的 `archive.root` 改成你 Obsidian 库里的一个专门文件夹
 （例如 `D:\ObsidianVault\文献追踪`），本地运行 `src/run_daily.py` 时笔记就会直接写进 Obsidian。
 云端运行仍写在仓库的 `data/archive/`（网页版数据来源），两边互不影响。
+
+**偶尔本地跑一下，把最新笔记沉淀进 Obsidian：**
+
+1. 双击项目根目录的 **`本地沉淀笔记.bat`**
+2. 等 1~2 分钟，窗口显示"完成"后按任意键关闭
+3. 打开 Obsidian 查看新笔记
+
+这个模式**不会推送飞书**（避免和云端每天推送重复），只做：搜索最新论文 → 打分 → 生成日报 → 写入 Obsidian。

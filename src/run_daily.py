@@ -60,6 +60,8 @@ def merge_and_filter():
 
 
 def main():
+    no_push = "--no-push" in sys.argv
+
     if "--send-test" in sys.argv:
         env = deliver.load_env()
         webhook = env.get("WEBHOOK_URL", "")
@@ -98,19 +100,22 @@ def main():
 
     print()
     print("========== 第 6 步：推送到飞书 ==========")
-    env = deliver.load_env()
-    webhook = env.get("WEBHOOK_URL", "")
-    if not webhook:
-        print("没有配置 WEBHOOK_URL（检查 GitHub 密钥或本地 .env），跳过推送。")
-        print("日报已保存在 data/digest.md，可手动查看。")
+    if no_push:
+        print("（--no-push 模式：跳过飞书推送，只沉淀笔记到 Obsidian/本地）")
     else:
-        print("Webhook 已配置，正在发送……")
-        with open(digest.DIGEST_PATH, encoding="utf-8") as f:
-            text = f.read()
-        result = deliver.send_message(
-            text, webhook, delivery_secret(env)
-        )
-        print("飞书返回：", result)
+        env = deliver.load_env()
+        webhook = env.get("WEBHOOK_URL", "")
+        if not webhook:
+            print("没有配置 WEBHOOK_URL（检查 GitHub 密钥或本地 .env），跳过推送。")
+            print("日报已保存在 data/digest.md，可手动查看。")
+        else:
+            print("Webhook 已配置，正在发送……")
+            with open(digest.DIGEST_PATH, encoding="utf-8") as f:
+                text = f.read()
+            result = deliver.send_message(
+                text, webhook, delivery_secret(env)
+            )
+            print("飞书返回：", result)
 
     print()
     print("========== 第 7 步：归档 ==========")
