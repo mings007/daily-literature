@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>文献追踪 · 历史记录</title>
+<style>
+  body { font-family: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; max-width: 760px; margin: 0 auto; padding: 16px; background: #f7f7f8; color: #222; }
+  h1 { font-size: 22px; margin: 8px 0 4px; }
+  .search { width: 100%; padding: 10px 12px; font-size: 16px; border: 1px solid #ccc; border-radius: 8px; box-sizing: border-box; }
+  .meta { color: #777; font-size: 13px; margin: 8px 0 16px; }
+  .count { font-size: 13px; color: #888; margin: 8px 0 12px; }
+  .card { background: #fff; border-radius: 10px; padding: 14px 16px; margin-bottom: 12px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+  .card h2 { font-size: 16px; margin: 0 0 6px; line-height: 1.45; }
+  .card h2 a { color: #1a0dab; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .badge { display: inline-block; background: #eef2ff; color: #3b5bdb; border-radius: 20px; padding: 2px 10px; font-size: 12px; margin-right: 8px; }
+  .j { color: #555; font-size: 13px; }
+  .abs { color: #444; font-size: 13px; margin-top: 8px; line-height: 1.55; }
+  .empty { text-align: center; color: #999; padding: 40px 0; }
+</style>
+</head>
+<body>
+<h1>📚 文献追踪 · 历史记录</h1>
+<input class="search" id="q" type="search" placeholder="搜索标题 / 期刊 / 摘要…" autofocus>
+<div class="meta">数据来自 GitHub 仓库归档，每天 07:30 自动更新</div>
+<div class="count" id="count"></div>
+<div id="list"></div>
+<script>
+let DATA = [];
+async function load() {
+  try {
+    const r = await fetch('index.json?t=' + Date.now());
+    DATA = await r.json();
+    render();
+  } catch (e) {
+    document.getElementById('list').innerHTML = '<div class="empty">加载失败，请确认 GitHub Pages 已开启</div>';
+  }
+}
+function render() {
+  const q = document.getElementById('q').value.trim().toLowerCase();
+  const items = DATA.filter(d => !q || (d.title + ' ' + d.journal + ' ' + (d.abstract || '')).toLowerCase().includes(q));
+  document.getElementById('count').textContent = '共 ' + items.length + ' 条记录';
+  const list = document.getElementById('list');
+  if (!items.length) { list.innerHTML = '<div class="empty">没有匹配的记录</div>'; return; }
+  list.innerHTML = items.map(d => {
+    const url = d.url || (d.doi ? 'https://doi.org/' + d.doi : '#');
+    return '<div class="card">' +
+      '<h2><a href="' + url + '" target="_blank" rel="noopener">' + esc(d.title) + '</a></h2>' +
+      '<span class="badge">' + d.score + ' 分</span><span class="j">' + esc(d.journal) + ' · ' + esc(d.date) + '</span>' +
+      (d.abstract ? '<div class="abs">' + esc(d.abstract) + '</div>' : '') +
+      '</div>';
+  }).join('');
+}
+function esc(s) {
+  return (s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+document.getElementById('q').addEventListener('input', render);
+load();
+</script>
+</body>
+</html>

@@ -86,3 +86,21 @@ FEISHU_SECRET=你复制的那串密钥（没选加签就留空）
 
 中间产物都在 `data/` 目录：`candidates.json`（候选）、`selected.json`（入选）、
 `digest.md`（日报原文）、`archive/`（归档笔记）、`seen.json`（已推送索引，防止重复）。
+
+## 网页版历史记录（GitHub Pages）
+
+每天归档的论文会自动生成 `docs/index.json`，配合 `docs/index.html` 就是一个可搜索的网页版历史记录。
+启用方法（一次性）：
+
+1. 仓库 → **Settings → Pages**
+2. **Source** 选 **Deploy from a branch** → 分支选 `main` → 目录选 `/docs` → **Save**
+3. 等一两分钟，访问 `https://<你的用户名>.github.io/daily-literature/`
+
+之后每天的归档都会自动同步到这个网页，手机浏览器也能看。
+
+## 接入 Obsidian
+
+归档笔记本身已经是带 YAML 头信息的 Markdown 文件，Obsidian 可以直接打开。
+把 `config.yaml` 里的 `archive.root` 改成你 Obsidian 库里的一个专门文件夹
+（例如 `D:\ObsidianVault\文献追踪`），本地运行 `src/run_daily.py` 时笔记就会直接写进 Obsidian。
+云端运行仍写在仓库的 `data/archive/`（网页版数据来源），两边互不影响。

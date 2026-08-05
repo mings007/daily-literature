@@ -55,6 +55,67 @@ def render_note(paper):
     return "\n".join(lines)
 
 
+def section_text(body, heading):
+    """提取笔记正文中某个二级标题下的内容（到下一个二级标题为止）"""
+    marker = "## " + heading + "\n"
+    if marker not in body:
+        return ""
+    rest = body.split(marker, 1)[1]
+    next_heading = rest.find("\n## ")
+    if next_heading != -1:
+        rest = rest[:next_heading]
+    return " ".join(rest.split())
+
+
+def parse_note(text):
+    """把一篇归档笔记解析成网页索引条目；不是本系统格式的文件返回 None"""
+    if not text.startswith("---"):
+        return None
+    parts = text.split("---", 2)
+    if len(parts) < 3:
+        return None
+    try:
+        meta = yaml.safe_load(parts[1]) or {}
+    except Exception:
+        return None
+    if not meta.get("title") or not meta.get("doi"):
+        return None
+    body = parts[2]
+    score_text = str(meta.get("score", "")).split("/")[0]
+    try:
+        score = float(score_text)
+    except ValueError:
+        score = 0
+    return {
+        "title": meta.get("title", ""),
+        "journal": meta.get("journal", ""),
+        "date": str(meta.get("date", "")),
+        "doi": meta.get("doi", ""),
+        "score": score,
+        "url": section_text(body, "链接"),
+        "abstract": section_text(body, "摘要")[:400],
+    }
+
+
+def build_index(archive_root):
+    """扫描归档目录，生成网页版历史记录的数据（按日期倒序）"""
+    entries = []
+    for dirpath, _, filenames in os.walk(archive_root):
+        for filename in filenames:
+            if not filename.endswith(".md"):
+                continue
+            path = os.path.join(dirpath, filename)
+            try:
+                with open(path, encoding="utf-8") as f:
+                    entry = parse_note(f.read())
+            except Exception:
+                entry = None
+            if entry:
+                entries.append(entry)
+    entries.sort(key=lambda e: e.get("date", ""), reverse=True)
+    return entries
+
+
 def main():
     config = load_config()
     selected = json.load(open(SELECTED_PATH, encoding="utf-8"))
@@ -84,6 +145,14 @@ def main():
     with open(SEEN_PATH, "w", encoding="utf-8") as f:
         json.dump(seen, f, ensure_ascii=False, indent=2)
     print("归档 {} 篇到 {}，并更新 data/seen.json".format(len(selected), day_dir))
+
+    # 同步更新网页版历史记录的数据文件
+    index_path = os.path.join(ROOT, "docs", "index.json")
+    os.makedirs(os.path.dirname(index_path), exist_ok=True)
+    entries = build_index(archive_root)
+    with open(index_path, "w", encoding="utf-8") as f:
+        json.dump(entries, f, ensure_ascii=False, indent=2)
+    print("网页版历史已更新：docs/index.json（共 {} 条）".format(len(entries)))
 
 
 if __name__ == "__main__":
