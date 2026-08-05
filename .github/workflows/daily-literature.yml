@@ -1,0 +1,44 @@
+name: 每日文献日报
+
+on:
+  schedule:
+    # GitHub Actions 的 cron 使用 UTC 时间：北京时间 08:30 = UTC 00:30
+    - cron: '30 0 * * *'
+  workflow_dispatch:  # 支持在 GitHub 网页上手动触发，方便先测试
+
+permissions:
+  contents: write   # 允许把去重索引和归档笔记写回仓库
+
+jobs:
+  daily-literature:
+    runs-on: ubuntu-latest
+    env:
+      # 密钥存在 GitHub 仓库的 Secrets 里，运行时注入环境变量
+      WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+      FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+    steps:
+      - name: 拉取代码
+        uses: actions/checkout@v4
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 安装依赖
+        run: pip install pyyaml
+
+      - name: 运行每日文献流水线
+        run: python src/run_daily.py
+
+      - name: 把去重索引和归档笔记写回仓库
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/seen.json data/archive
+          if git diff --cached --quiet; then
+            echo "没有需要提交的变化"
+          else
+            git commit -m "chore: 更新文献归档 $(date +%F)"
+            git push
+          fi

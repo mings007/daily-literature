@@ -1,0 +1,64 @@
+# ============================================================
+# 每日文献追踪配置 —— 这是 App 的"大脑"
+# 所有"你关心的领域"相关的信息都放在这个文件里
+# 带 CHANGE_ME 的地方，等我们确定了你的领域后一起填写
+# ============================================================
+
+research_profile:
+  field: "NIR-II fluorescence imaging"   # 你的研究领域名称（会显示在每日推送的标题里）
+  subtopics:                  # 你想重点跟踪的子方向（2~5 个）
+    - "NIR-II probes and fluorophores"
+    - "NIR-II imaging-guided theranostics"
+    - "NIR-II bioimaging and biosensing"
+    - "NIR-II photothermal/photodynamic therapy"
+  # 搜索关键词（建议英文，学术数据库对英文支持最好）
+  keywords:
+    include:
+      - "NIR-II fluorescence imaging"
+      - "NIR-II fluorophores"
+      - "NIR-II probes"
+      - "NIR-II phototheranostics"
+    exclude: []               # 想排除的噪音词，例如 "review"
+  important_authors_or_orgs: []   # 特别关注的作者/机构（打分时会加权）
+
+search:
+  candidate_pool_size: 30     # 每天抓取多少篇候选论文
+  final_selection_count: 5    # 最终推送几篇
+  lookback_days: 7            # 回看最近几天的新论文（配合去重索引，不会重复推送）
+  sources: [arxiv, openalex, crossref]   # 数据来源，均可免费使用
+
+journal_watch:
+  # 盯住的重点期刊：每天抓取这些期刊的目录（RSS），论文上线当天就能抓到，
+  # 不需要登录，不违反出版社协议。想加期刊就把 name 和 rss 加进来。
+  # RSS 地址一般在期刊官网首页的 RSS 图标或页脚能找到。
+  - name: "Nature"
+    rss: "https://www.nature.com/nature.rss"
+  - name: "Science"
+    rss: "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science"
+  - name: "Nature Communications"
+    rss: "https://www.nature.com/ncomms.rss"
+  - name: "Journal of the American Chemical Society (JACS)"
+    rss: "https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=jacsat"
+  - name: "Angewandte Chemie Int. Ed."
+    rss: "https://onlinelibrary.wiley.com/rss/journal/10.1002/%28ISSN%291521-3773"
+  - name: "Advanced Materials"
+    rss: "https://onlinelibrary.wiley.com/rss/journal/10.1002/%28ISSN%291521-4095"
+
+scoring:
+  # 六维评分权重（总和 = 100）
+  topic: 35        # 主题相关度（最重要的门槛：低于 10 分直接淘汰）
+  method: 20       # 方法学价值
+  journal: 15      # 期刊/来源质量
+  network: 10      # 与关注作者/机构的关联
+  applied: 10      # 应用价值
+  archival: 10     # 长期归档价值
+
+delivery:
+  target: "feishu"      # 推送目标：feishu（飞书群）/ telegram / local（本地文件）
+  format: "short_digest"
+  # 注意：Webhook 地址和加签密钥属于敏感信息，不写在配置文件里，
+  # 而是放在 .env 文件中（已加入 .gitignore，不会提交到 Git）
+
+archive:
+  enabled: true
+  root: "CHANGE_ME"     # 归档路径，例如 Obsidian vault 下的 raw/文献库

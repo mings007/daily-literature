@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+
+# 中间产物每次运行都会重新生成，不进仓库
+data/candidates.json
+data/selected.json
+data/digest.md
+data/rss_results.json
