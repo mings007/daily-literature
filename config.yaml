@@ -56,8 +56,8 @@ scoring:
 delivery:
   target: "feishu"      # 推送目标：feishu（飞书群）/ telegram / local（本地文件）
   format: "short_digest"
-  use_signature: false  # 你的飞书机器人用的是「自定义关键词」安全设置，不需要加签。
-                        # 如果以后改成「加签」，把这里改为 true，并在 GitHub 配置 FEISHU_SECRET。
+  use_signature: true   # 你的飞书机器人开启了「加签」安全设置，发送时必须带签名。
+                        # 密钥放在 GitHub 的 FEISHU_SECRET 里（与本机 .env 一致）。
   # 注意：Webhook 地址和加签密钥属于敏感信息，不写在配置文件里，
   # 而是放在 .env 文件中（已加入 .gitignore，不会提交到 Git）
 

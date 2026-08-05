@@ -141,7 +141,7 @@ def main():
         candidate_count = len(selected)
 
     lines = [
-        "📚 {} 文献日报 | {}".format(
+        "📚 {} 文献追踪日报 | {}".format(
             datetime.date.today().isoformat(), config["research_profile"]["field"]
         ),
         "候选池：{} 篇 → 精选：{} 篇".format(candidate_count, len(selected)),
