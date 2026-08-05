@@ -5,6 +5,12 @@ on:
     # GitHub Actions 的 cron 使用 UTC 时间：北京时间 07:30 = UTC 23:30（前一天）
     - cron: '30 23 * * *'
   workflow_dispatch:  # 支持在 GitHub 网页上手动触发，方便先测试
+    inputs:
+      send_test:
+        description: '只发送一条飞书测试消息（用来验证密钥是否配好）'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write   # 允许把去重索引和归档笔记写回仓库
@@ -29,7 +35,7 @@ jobs:
         run: pip install pyyaml
 
       - name: 运行每日文献流水线
-        run: python src/run_daily.py
+        run: python src/run_daily.py ${{ inputs.send_test && '--send-test' || '' }}
 
       - name: 把去重索引和归档笔记写回仓库
         run: |

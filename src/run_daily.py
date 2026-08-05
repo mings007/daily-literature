@@ -48,6 +48,20 @@ def merge_and_filter():
 
 
 def main():
+    if "--send-test" in sys.argv:
+        env = deliver.load_env()
+        webhook = env.get("WEBHOOK_URL", "")
+        if not webhook:
+            print("没有配置 WEBHOOK_URL（检查 GitHub 密钥或本地 .env），无法发送测试消息。")
+            return
+        result = deliver.send_message(
+            "云端文献追踪测试消息：密钥配置成功，链路已打通！",
+            webhook,
+            env.get("FEISHU_SECRET") or None,
+        )
+        print("飞书返回：", result)
+        return
+
     print("========== 第 1 步：多源搜索 ==========")
     search.main()
 
