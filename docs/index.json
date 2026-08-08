@@ -1,5 +1,32 @@
 [
   {
+    "title": "Giant Compressed Mo Blue Wheel {Mo <sub>118</sub> }: A Molecular Photothermal Agent for High‐Effective NIR‐II Chemo‐Photothermal Therapy",
+    "journal": "Angewandte Chemie International Edition",
+    "date": "2026-8-8",
+    "doi": "10.1002/anie.9216648",
+    "score": 54.0,
+    "url": "https://doi.org/10.1002/anie.9216648",
+    "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> The rational construction of well‐defined polyoxometalate (POM)‐based second near‐infrared (NIR‐II) molecular photothermal agents (PTAs) and the elucidation of their structure‐activity relationships are crucial, but remain unresolved. Herein, we report a decameric molybdenum blue (MB) wheel {Mo <jats:sub>118</jats:sub> }, comprising a {Mo <jats:sub>112</j"
+  },
+  {
+    "title": "A New Class of Bond-Length-Engineered Transition-Metal-Doped Nanocrystals with Tunable NIR-II Absorption and Emission",
+    "journal": "Journal of the American Chemical Society",
+    "date": "2026-8-8",
+    "doi": "10.1021/jacs.6c11340",
+    "score": 41.5,
+    "url": "https://doi.org/10.1021/jacs.6c11340",
+    "abstract": "<jats:title>Abstract</jats:title> <jats:p>Developing luminescent probes with tunable absorption and emission in the second near-infrared (NIR-II) or shortwave infrared (SWIR) region (1000–2500 nm) is essential for advanced photonic technologies, as this region offers dramatically reduced photon scattering in complex media and intrinsic compatibility with optical communication bands. Here, we repor"
+  },
+  {
+    "title": "Giant Compressed Mo Blue Wheel {Mo <sub>118</sub> }: A Molecular Photothermal Agent for High‐Effective NIR‐II Chemo‐Photothermal Therapy",
+    "journal": "Angewandte Chemie",
+    "date": "2026-8-8",
+    "doi": "10.1002/ange.9216648",
+    "score": 54.0,
+    "url": "https://doi.org/10.1002/ange.9216648",
+    "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> The rational construction of well‐defined polyoxometalate (POM)‐based second near‐infrared (NIR‐II) molecular photothermal agents (PTAs) and the elucidation of their structure‐activity relationships are crucial, but remain unresolved. Herein, we report a decameric molybdenum blue (MB) wheel {Mo <jats:sub>118</jats:sub> }, comprising a {Mo <jats:sub>112</j"
+  },
+  {
     "title": "Engineering Mg-doped CoMo-LDH as an efficient sensitizer for NIR-II light-enhanced photo-sonodynamic therapy and immune activation",
     "journal": "Journal of Nanobiotechnology",
     "date": "2026-8-7",
@@ -108,6 +135,15 @@
     "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> Rare‐earth nanoparticles represent a promising class of NIR‐IIc emitters for deep‐tissue bioimaging beyond 1700 nm; however, the practical application remains limited by their suboptimal luminescence brightness and the low quantum efficiency (QE) of current detectors. Here we report a dual‐sensitizer rare‐earth nanoprobe (YbEr:Tm) that strategically steer"
   },
   {
+    "title": "Preventing oxidation in the functionalised NIR-II heptamethine dyes for improved optical properties",
+    "journal": "ChemRxiv",
+    "date": "2026-08-07",
+    "doi": "10.26434/chemrxiv.15007163/v1",
+    "score": 36.5,
+    "url": "https://doi.org/10.26434/chemrxiv.15007163/v1",
+    "abstract": "While there is a significant amount of near-infrared (NIR) fluorophores emerging in the literature, organic molecules absorbing in the NIR-II window (1000 nm to 1700 nm) are relatively under-represented. To satisfy the need to shift the optical properties further into the NIR for utilisation in bioimaging, clever synthetic strategies and structural design are required. Following the adapted report"
+  },
+  {
     "title": "Engineering Ultrastable Intrinsic Radicals: Graphene Quantum Dots With NIR‐II Emission for Dynamic Deep‐Tissue Bioimaging",
     "journal": "Advanced Science",
     "date": "2026-08-03",
@@ -151,6 +187,15 @@
     "score": 28.0,
     "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.73934?af=R",
     "abstract": "Advanced Materials, Volume 38, Issue 43, 3 August 2026."
+  },
+  {
+    "title": "Low‐Power NIR‐II Excitable Organic Phototheranostic Agents With NIR‐IIb Emission for Precise Cancer Theranostics",
+    "journal": "Aggregate",
+    "date": "2026-08-01",
+    "doi": "10.1002/agt2.70422",
+    "score": 50.0,
+    "url": "https://doi.org/10.1002/agt2.70422",
+    "abstract": "ABSTRACT Organic small‐molecule phototheranostic agents (OPTAs) with second near‐infrared (NIR‐II, 1000–1700 nm) absorption show great potential for precise cancer theranostics. However, achieving simultaneous NIR‐IIb (1500–1700 nm) emission and high photothermal conversion efficiency (PCE) under low‐power 1064 nm excitation remains challenging due to competing radiative and nonradiative decay pat"
   },
   {
     "title": "NIR-II emissive nanomedicine of dimer-structured conjugated oligomer induces immunogenic cell death for photoimmunotherapy of pancreatic cancer",
