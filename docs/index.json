@@ -1,6 +1,15 @@
 [
   {
     "title": "Giant Compressed Mo Blue Wheel {Mo <sub>118</sub> }: A Molecular Photothermal Agent for High‐Effective NIR‐II Chemo‐Photothermal Therapy",
+    "journal": "Angewandte Chemie",
+    "date": "2026-8-8",
+    "doi": "10.1002/ange.9216648",
+    "score": 54.0,
+    "url": "https://doi.org/10.1002/ange.9216648",
+    "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> The rational construction of well‐defined polyoxometalate (POM)‐based second near‐infrared (NIR‐II) molecular photothermal agents (PTAs) and the elucidation of their structure‐activity relationships are crucial, but remain unresolved. Herein, we report a decameric molybdenum blue (MB) wheel {Mo <jats:sub>118</jats:sub> }, comprising a {Mo <jats:sub>112</j"
+  },
+  {
+    "title": "Giant Compressed Mo Blue Wheel {Mo <sub>118</sub> }: A Molecular Photothermal Agent for High‐Effective NIR‐II Chemo‐Photothermal Therapy",
     "journal": "Angewandte Chemie International Edition",
     "date": "2026-8-8",
     "doi": "10.1002/anie.9216648",
@@ -16,15 +25,6 @@
     "score": 41.5,
     "url": "https://doi.org/10.1021/jacs.6c11340",
     "abstract": "<jats:title>Abstract</jats:title> <jats:p>Developing luminescent probes with tunable absorption and emission in the second near-infrared (NIR-II) or shortwave infrared (SWIR) region (1000–2500 nm) is essential for advanced photonic technologies, as this region offers dramatically reduced photon scattering in complex media and intrinsic compatibility with optical communication bands. Here, we repor"
-  },
-  {
-    "title": "Giant Compressed Mo Blue Wheel {Mo <sub>118</sub> }: A Molecular Photothermal Agent for High‐Effective NIR‐II Chemo‐Photothermal Therapy",
-    "journal": "Angewandte Chemie",
-    "date": "2026-8-8",
-    "doi": "10.1002/ange.9216648",
-    "score": 54.0,
-    "url": "https://doi.org/10.1002/ange.9216648",
-    "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> The rational construction of well‐defined polyoxometalate (POM)‐based second near‐infrared (NIR‐II) molecular photothermal agents (PTAs) and the elucidation of their structure‐activity relationships are crucial, but remain unresolved. Herein, we report a decameric molybdenum blue (MB) wheel {Mo <jats:sub>118</jats:sub> }, comprising a {Mo <jats:sub>112</j"
   },
   {
     "title": "Engineering Mg-doped CoMo-LDH as an efficient sensitizer for NIR-II light-enhanced photo-sonodynamic therapy and immune activation",
@@ -63,13 +63,13 @@
     "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> Near‐infrared‐II (1000–1700 nm) photoacoustic imaging enables deep‐tissue visualization with high spatial precision but lacks organic probes integrating general design, reduced molecular complexity, and high‐fidelity in vivo signal output. Herein, we present a general building‐block design for ultralow‐molecular‐weight “zero‐on” near‐infrared‐II photoacou"
   },
   {
-    "title": "In situ NIR-IIb imaging of endogenous H2S signaling for high-resolution abiotic stress visualization in plants",
-    "journal": "Nature Communications",
+    "title": "Magneto‐NIR‐II‐Programmed Cascade Nanozymes Unlocking Blood–Brain Barrier Translocation and Autophagic Resistance in Glioblastoma",
+    "journal": "Advanced Science",
     "date": "2026-8-5",
-    "doi": "10.1038/s41467-026-76449-9",
-    "score": 30.0,
-    "url": "https://doi.org/10.1038/s41467-026-76449-9",
-    "abstract": "（无摘要）"
+    "doi": "10.1002/advs.76998",
+    "score": 51.0,
+    "url": "https://doi.org/10.1002/advs.76998",
+    "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> Glioblastoma (GBM) remains a highly aggressive central nervous system malignancy, and its treatment is hindered by poor drug accumulation across the blood–brain barrier (BBB) and autophagy‐mediated repair. To address these barriers, rare‐earth‐doped Nd <jats:sub>0.02</jats:sub> Fe <jats:sub>2.98</jats:sub> S <jats:sub>4</jats:sub> @HA nanozymes (NFSH) are"
   },
   {
     "title": "Single‐Atom C‐to‐N Editing Unlocks Bright NIR‐II J‐Aggregates for Imaging Lymphatic Metastasis",
@@ -81,24 +81,6 @@
     "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> The development of near‐infrared II (NIR‐II) J‐aggregates is hindered by a lack of rational design guidelines. Here we show that single‐atom C‐to‐N skeletal editing in hemicyanine dyes precisely regulates intramolecular charge distribution and intermolecular packing, thereby allowing efficient formation of bright NIR‐II J‐aggregates. Systematic acceptor e"
   },
   {
-    "title": "Spatiotemporal-switchable 2D NIR-II single-atom nanozyme for single-cell–level surgical navigation and glioblastoma phototherapy",
-    "journal": "Science Translational Medicine",
-    "date": "2026-8-5",
-    "doi": "10.1126/scitranslmed.aeb8054",
-    "score": 52.0,
-    "url": "https://doi.org/10.1126/scitranslmed.aeb8054",
-    "abstract": "<jats:p> Single-cell–level resolution tumor therapy represents an advanced strategy against glioblastoma but lacks suitable theranostic agents. Here, we developed a spatiotemporal-switchable, two-dimensional (2D), bismuthene-based second near-infrared window (NIR-II) nanozyme. In this platform, the bismuthene scaffold simultaneously directed the assembly of indocyanine green (ICG) into ordered <ja"
-  },
-  {
-    "title": "Magneto‐NIR‐II‐Programmed Cascade Nanozymes Unlocking Blood–Brain Barrier Translocation and Autophagic Resistance in Glioblastoma",
-    "journal": "Advanced Science",
-    "date": "2026-8-5",
-    "doi": "10.1002/advs.76998",
-    "score": 51.0,
-    "url": "https://doi.org/10.1002/advs.76998",
-    "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> Glioblastoma (GBM) remains a highly aggressive central nervous system malignancy, and its treatment is hindered by poor drug accumulation across the blood–brain barrier (BBB) and autophagy‐mediated repair. To address these barriers, rare‐earth‐doped Nd <jats:sub>0.02</jats:sub> Fe <jats:sub>2.98</jats:sub> S <jats:sub>4</jats:sub> @HA nanozymes (NFSH) are"
-  },
-  {
     "title": "Modulating the Optical and Enzymatic Properties of Polydopamine via Valence Engineering of Tungsten Affording NIR‐II Photoacoustic Imaging and Targeted Therapy of Atherosclerosis",
     "journal": "Small",
     "date": "2026-8-5",
@@ -108,6 +90,15 @@
     "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> Atherosclerosis (AS) is a risk factor for various cardiovascular diseases (CVD), and early diagnosis and plaque removal are challenges in the management of AS and CVD. To address these challenges, we designed a tungsten‑doped polydopamine nanoparticle (W‐PDA NPs). The near‐infrared (NIR) optical absorption and enzymatic properties of W‐PDA were tuned by a"
   },
   {
+    "title": "Spatiotemporal-switchable 2D NIR-II single-atom nanozyme for single-cell–level surgical navigation and glioblastoma phototherapy",
+    "journal": "Science Translational Medicine",
+    "date": "2026-8-5",
+    "doi": "10.1126/scitranslmed.aeb8054",
+    "score": 52.0,
+    "url": "https://doi.org/10.1126/scitranslmed.aeb8054",
+    "abstract": "<jats:p> Single-cell–level resolution tumor therapy represents an advanced strategy against glioblastoma but lacks suitable theranostic agents. Here, we developed a spatiotemporal-switchable, two-dimensional (2D), bismuthene-based second near-infrared window (NIR-II) nanozyme. In this platform, the bismuthene scaffold simultaneously directed the assembly of indocyanine green (ICG) into ordered <ja"
+  },
+  {
     "title": "Single‐Atom C‐to‐N Editing Unlocks Bright NIR‐II J‐Aggregates for Imaging Lymphatic Metastasis",
     "journal": "Angewandte Chemie",
     "date": "2026-8-5",
@@ -115,6 +106,15 @@
     "score": 55.5,
     "url": "https://doi.org/10.1002/ange.5207784",
     "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> The development of near‐infrared II (NIR‐II) J‐aggregates is hindered by a lack of rational design guidelines. Here we show that single‐atom C‐to‐N skeletal editing in hemicyanine dyes precisely regulates intramolecular charge distribution and intermolecular packing, thereby allowing efficient formation of bright NIR‐II J‐aggregates. Systematic acceptor e"
+  },
+  {
+    "title": "In situ NIR-IIb imaging of endogenous H2S signaling for high-resolution abiotic stress visualization in plants",
+    "journal": "Nature Communications",
+    "date": "2026-8-5",
+    "doi": "10.1038/s41467-026-76449-9",
+    "score": 30.0,
+    "url": "https://doi.org/10.1038/s41467-026-76449-9",
+    "abstract": "（无摘要）"
   },
   {
     "title": "Metallomacrocyclic Ligands Stabilized Icosahedral Superatomic Nanoclusters With NIR‐I to NIR‐II Phosphorescence Modulation",
@@ -144,6 +144,15 @@
     "abstract": "（无摘要）"
   },
   {
+    "title": "Off-the-shelf NIR-I fluorophores as ready-to-use NIR-II probes: screening and in vivo validation",
+    "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "date": "2026-08-12",
+    "doi": "10.64898/2026.08.11.744199",
+    "score": 44.0,
+    "url": "https://doi.org/10.64898/2026.08.11.744199",
+    "abstract": "Fluorescence imaging in the second near-infrared window (NIR-II, 950-1700 nm) offers reduced scattering, lower autofluorescence, and deeper tissue penetration than NIR-I imaging, but its adoption is limited by the need for custom-synthesized fluorophores. Here, we identify commercially available dyes that exhibit usable NIR-II emission. Eleven visible, far-red, and NIR-I fluorophores were screened"
+  },
+  {
     "title": "Agentic AI-powered flexible fiber-bundle endoscopy for high-resolution NIR-II fluorescence imaging in vivo",
     "journal": "arXiv (Cornell University)",
     "date": "2026-08-09",
@@ -162,15 +171,6 @@
     "abstract": "While there is a significant amount of near-infrared (NIR) fluorophores emerging in the literature, organic molecules absorbing in the NIR-II window (1000 nm to 1700 nm) are relatively under-represented. To satisfy the need to shift the optical properties further into the NIR for utilisation in bioimaging, clever synthetic strategies and structural design are required. Following the adapted report"
   },
   {
-    "title": "Engineering Ultrastable Intrinsic Radicals: Graphene Quantum Dots With NIR‐II Emission for Dynamic Deep‐Tissue Bioimaging",
-    "journal": "Advanced Science",
-    "date": "2026-08-03",
-    "doi": "10.1002/advs.76970",
-    "score": 59.0,
-    "url": "https://doi.org/10.1002/advs.76970",
-    "abstract": "Stable radicals in carbon-based materials have witnessed great consideration in the field of photonic and quantum information technologies, yet their development has been hindered by inherent instability arising from high reactivity. Here, we demonstrate the stabilization of intrinsic radicals within graphene quantum dots (GQDs) synthesized via two-dimensional polymerization of perylene derivative"
-  },
-  {
     "title": "Engineering Polarons for Circumventing Energy Gap Law: Nd‐doped CdTe Quantum Dots With High‐efficiency Emission at 1730 nm for NIR‐IIb/c Bioimaging",
     "journal": "Advanced Materials",
     "date": "2026-08-03",
@@ -187,6 +187,15 @@
     "score": 28.0,
     "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.73860?af=R",
     "abstract": "Advanced Materials, Volume 38, Issue 43, 3 August 2026."
+  },
+  {
+    "title": "Engineering Ultrastable Intrinsic Radicals: Graphene Quantum Dots With NIR‐II Emission for Dynamic Deep‐Tissue Bioimaging",
+    "journal": "Advanced Science",
+    "date": "2026-08-03",
+    "doi": "10.1002/advs.76970",
+    "score": 59.0,
+    "url": "https://doi.org/10.1002/advs.76970",
+    "abstract": "Stable radicals in carbon-based materials have witnessed great consideration in the field of photonic and quantum information technologies, yet their development has been hindered by inherent instability arising from high reactivity. Here, we demonstrate the stabilization of intrinsic radicals within graphene quantum dots (GQDs) synthesized via two-dimensional polymerization of perylene derivative"
   },
   {
     "title": "An Intelligent AIEgen-Functionalized Hyaluronic Acid Nanocarrier for NIR-II Imaging-Guided and Stimuli-Regulated Rheumatoid Arthritis Theranostics",
@@ -216,15 +225,6 @@
     "abstract": "ABSTRACT Organic small‐molecule phototheranostic agents (OPTAs) with second near‐infrared (NIR‐II, 1000–1700 nm) absorption show great potential for precise cancer theranostics. However, achieving simultaneous NIR‐IIb (1500–1700 nm) emission and high photothermal conversion efficiency (PCE) under low‐power 1064 nm excitation remains challenging due to competing radiative and nonradiative decay pat"
   },
   {
-    "title": "NIR-II emissive nanomedicine of dimer-structured conjugated oligomer induces immunogenic cell death for photoimmunotherapy of pancreatic cancer",
-    "journal": "Journal of Nanobiotechnology",
-    "date": "2026-07-31",
-    "doi": "10.1186/s12951-026-04873-6",
-    "score": 49.0,
-    "url": "https://doi.org/10.1186/s12951-026-04873-6",
-    "abstract": "Pancreatic cancer is a highly immunosuppressive “cold” tumor that typically fails to achieve satisfactory immunotherapy outcomes. Photoimmunotherapy represents a preeminent cancer treatment strategy that combines the advantages of noninvasive phototherapy and drug-free immunotherapy. However, recently reported phototherapeutic materials predominantly respond to visible light via the oxygen-depende"
-  },
-  {
     "title": "One Pot Strategy for NIR-II Emissive AIE active Iridium (III) Redox Catalyst towards Photoinduced ROS Generation, NADH Oxidation, and GSH Depletion: A Way Forward in Phototherapy",
     "journal": "ChemRxiv",
     "date": "2026-07-31",
@@ -232,6 +232,15 @@
     "score": 31.0,
     "url": "https://doi.org/10.26434/chemrxiv.15006862/v1",
     "abstract": "Development of NIR-II emissive AIE-active low-molecular-weight phototheranostic agents for diagnostic imaging and cancer treatment is of paramount importance. Herein, we developed an NIR-II emissive AIE-active Ir(III) complex, “A2,” via a one-pot synthetic strategy in just 8 hours. In cell free study, under 630 nm light irradiation, A2 showed NADH-oxidation ability in normoxic and hypoxic conditio"
+  },
+  {
+    "title": "NIR-II emissive nanomedicine of dimer-structured conjugated oligomer induces immunogenic cell death for photoimmunotherapy of pancreatic cancer",
+    "journal": "Journal of Nanobiotechnology",
+    "date": "2026-07-31",
+    "doi": "10.1186/s12951-026-04873-6",
+    "score": 49.0,
+    "url": "https://doi.org/10.1186/s12951-026-04873-6",
+    "abstract": "Pancreatic cancer is a highly immunosuppressive “cold” tumor that typically fails to achieve satisfactory immunotherapy outcomes. Photoimmunotherapy represents a preeminent cancer treatment strategy that combines the advantages of noninvasive phototherapy and drug-free immunotherapy. However, recently reported phototherapeutic materials predominantly respond to visible light via the oxygen-depende"
   },
   {
     "title": "Bright NIR‐II AIEgens Enabled by Hydrogen‐Bond‐Assisted Conformational Locking for In Vivo Ischemia Imaging",
