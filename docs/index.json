@@ -135,6 +135,24 @@
     "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> Rare‐earth nanoparticles represent a promising class of NIR‐IIc emitters for deep‐tissue bioimaging beyond 1700 nm; however, the practical application remains limited by their suboptimal luminescence brightness and the low quantum efficiency (QE) of current detectors. Here we report a dual‐sensitizer rare‐earth nanoprobe (YbEr:Tm) that strategically steer"
   },
   {
+    "title": "Targeted NIR‐II Photothermal Therapy Enabled by Bioorthogonal Click Reaction With Olympicenyl Radical Nanoparticles",
+    "journal": "Advanced Healthcare Materials",
+    "date": "2026-8-16",
+    "doi": "10.1002/adhm.71597",
+    "score": 50.0,
+    "url": "https://doi.org/10.1002/adhm.71597",
+    "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> This study presents an application of delocalized hydrocarbon neutral monoradical, an olympicenyl radical ( <jats:bold>OR6</jats:bold> ), as a high‐performance organic photothermal agent (PTA) for targeted photothermal therapy (PTT). By encapsulating <jats:bold>OR6</jats:bold> into functionalized nanoparticles (d <jats:bold>OR6</jats:bold> ‐NPs), a remark"
+  },
+  {
+    "title": "NIR-II Dynamic Cerebrovascular Imaging for Integrated Evaluation of Infarction- and Edema-Related Injury after Stroke",
+    "journal": "Research",
+    "date": "2026-8-16",
+    "doi": "10.34133/research.1422",
+    "score": 24.0,
+    "url": "https://doi.org/10.34133/research.1422",
+    "abstract": "（无摘要）"
+  },
+  {
     "title": "A Powerful NIR-II AIEgen for Efficient Photothermal Eradication of Multidrug-Resistant Bacterial Biofilms and Liver Abscesses",
     "journal": "ACS Applied Nano Materials",
     "date": "2026-8-14",
@@ -151,6 +169,15 @@
     "score": 33.0,
     "url": "https://doi.org/10.1073/pnas.2625351123",
     "abstract": "（无摘要）"
+  },
+  {
+    "title": "NIR-II squeezed light-field microscopy enables high-speed volumetric imaging of deep-tissue dynamics in vivo",
+    "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "date": "2026-08-15",
+    "doi": "10.64898/2026.08.13.744709",
+    "score": 35.0,
+    "url": "https://doi.org/10.64898/2026.08.13.744709",
+    "abstract": "High-speed three-dimensional imaging in scattering tissues remains challenging because volumetric microscopy generally requires scanning, whereas snapshot light-field approaches divide limited detector pixels among multiple views. This constraint is particularly severe in the second near-infrared window (NIR-II), where commonly used InGaAs cameras typically have relatively small sensor formats and"
   },
   {
     "title": "Off-the-shelf NIR-I fluorophores as ready-to-use NIR-II probes: screening and in vivo validation",
