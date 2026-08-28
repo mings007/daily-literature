@@ -135,6 +135,15 @@
     "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> Rare‐earth nanoparticles represent a promising class of NIR‐IIc emitters for deep‐tissue bioimaging beyond 1700 nm; however, the practical application remains limited by their suboptimal luminescence brightness and the low quantum efficiency (QE) of current detectors. Here we report a dual‐sensitizer rare‐earth nanoprobe (YbEr:Tm) that strategically steer"
   },
   {
+    "title": "Thermal‐Regulated Crystal Directional Growth for Efficient Sn‐Based NIR‐II Perovskite Light‐Emitting Diodes",
+    "journal": "Small",
+    "date": "2026-8-27",
+    "doi": "10.1002/smll.75488",
+    "score": 32.5,
+    "url": "https://doi.org/10.1002/smll.75488",
+    "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> Tin‐based perovskite light‐emitting diodes (Sn‐PeLEDs) are ideal for second near‐infrared (NIR‐II, 900–1800 nm) applications due to their tunable bandgap and environmental friendliness. However, they suffer from defect‐induced non‐radiative recombination and unbalanced charge transport. Here, we report a thermal‐regulated directional crystal growth strate"
+  },
+  {
     "title": "Precise Surgical Navigation of Endometriosis via NIR‐II Fluorescence Imaging With a Semiconducting Polymeric Probe",
     "journal": "Angewandte Chemie",
     "date": "2026-8-24",
@@ -214,6 +223,15 @@
     "score": 33.0,
     "url": "https://doi.org/10.1073/pnas.2625351123",
     "abstract": "（无摘要）"
+  },
+  {
+    "title": "Accelerating Intramolecular Nonradiative Decay via GSH‐Triggered Reassembly of Semiconducting Polymer Nanoprobes for Activatable NIR‐II Phototheranostics",
+    "journal": "Angewandte Chemie Int. Ed.",
+    "date": "2026-08-26",
+    "doi": "10.1002/anie.2537165",
+    "score": 38.0,
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.2537165?af=R",
+    "abstract": "Angewandte Chemie International Edition, EarlyView."
   },
   {
     "title": "Advances in polymer-based NIR-II fluorescent probes and their biomedical applications",
