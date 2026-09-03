@@ -1,5 +1,14 @@
 [
   {
+    "title": "Microenvironment‐Heterogeneity‐Driven Self‐Adaptive CuMo Diatomic Nanozyme Hydrogel for NIR‐II Photoacoustic Imaging‐Assisted Periodontitis Theranostics",
+    "journal": "Advanced Functional Materials",
+    "date": "2026-9-2",
+    "doi": "10.1002/adfm.78028",
+    "score": 43.0,
+    "url": "https://doi.org/10.1002/adfm.78028",
+    "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> Conventional periodontitis management relies on invasive, operator‐dependent diagnostic methods and treatments that do not adapt to the spatially heterogeneous and evolving periodontal microenvironment. To address these limitations, a heterogeneous microenvironment‐responsive theranostic platform (GT/DAzyme) was developed using a CuMo heteronuclear diatom"
+  },
+  {
     "title": "GSH-activatable rare-earth nanoprobe for NIR-II fluorescence imaging-guided surgery and enhanced chemotherapy/chemodynamic therapy of breast cancer",
     "journal": "Cancer Letters",
     "date": "2026-9",
@@ -234,6 +243,24 @@
     "abstract": "（无摘要）"
   },
   {
+    "title": "One‐End‐Truncated Au 52 and Au 70 Quantum Rods: High‐Quantum‐Yield NIR‐II Emitters With Aspect‐Ratio‐Dominated Photophysics",
+    "journal": "Angewandte Chemie",
+    "date": "2026-09-01",
+    "doi": "10.1002/ange.1815171",
+    "score": 42.5,
+    "url": "https://doi.org/10.1002/ange.1815171",
+    "abstract": "ABSTRACT Precise control over absorption/emission in NIR‐II (1000–1700 nm) is essential for advancing photonic technologies. Atomically precise gold quantum rods (QRs) provide a structurally well‐defined platform for fine‐tuning NIR‐II anisotropic excitonic behavior at the atomic level. In this study, we report Au 52 (PET) 38 and Au 70 (PET) 50 (PET = 2‐phenylethanethiolate) as members of a distin"
+  },
+  {
+    "title": "One‐End‐Truncated Au 52 and Au 70 Quantum Rods: High‐Quantum‐Yield NIR‐II Emitters With Aspect‐Ratio‐Dominated Photophysics",
+    "journal": "Angewandte Chemie International Edition",
+    "date": "2026-09-01",
+    "doi": "10.1002/anie.1815171",
+    "score": 42.5,
+    "url": "https://doi.org/10.1002/anie.1815171",
+    "abstract": "ABSTRACT Precise control over absorption/emission in NIR‐II (1000–1700 nm) is essential for advancing photonic technologies. Atomically precise gold quantum rods (QRs) provide a structurally well‐defined platform for fine‐tuning NIR‐II anisotropic excitonic behavior at the atomic level. In this study, we report Au 52 (PET) 38 and Au 70 (PET) 50 (PET = 2‐phenylethanethiolate) as members of a distin"
+  },
+  {
     "title": "Dual‐Acceptor Engineered Multimodal Phototheranostic NIR‐II AIEgens for Orthotopic Breast Cancer Treatment",
     "journal": "Aggregate",
     "date": "2026-08-30",
@@ -241,6 +268,24 @@
     "score": 50.0,
     "url": "https://doi.org/10.1002/agt2.70427",
     "abstract": "ABSTRACT “One‑for‑all” phototheranostics has emerged as a promising alternative to conventional cancer therapies. Aggregation‑induced emission luminogens (AIEgens) are exemplary templates for constructing such versatile systems. However, developing robust NIR‑II (1000–1700 nm)‐emitting “one‑for‑all” phototheranostic AIEgens remains challenging, due to the drastically lowered reactive oxygen specie"
+  },
+  {
+    "title": "In Situ Heat Shock Protein Degradation by Combined PROTAC for Enhanced NIR-II Mild Phototheranostics",
+    "journal": "ACS Nano Medicine",
+    "date": "2026-08-29",
+    "doi": "10.1021/acsnanomed.6c00172",
+    "score": 57.5,
+    "url": "https://doi.org/10.1021/acsnanomed.6c00172",
+    "abstract": "Abstract Abstract photothermal therapy (PTT) usually results in the increase of heat shock proteins (HSPs), which leads to side effects and low efficiency. Protein degradation-targeting chimeras (PROTAC) provides a chance to degrade the HSPs, but the smart PROTAC during PTT is still scarce. Here, we designed and constructed a PROTAC-loaded peptide nanoparticle (PJS) for near-infrared II (NIR-II) f"
+  },
+  {
+    "title": "Interfacial Cascade Energy Transfer Enhances Lanthanide Luminescence for NIR-II Ratiometric Deep-Tissue Localization",
+    "journal": "Nano Letters",
+    "date": "2026-08-28",
+    "doi": "10.1021/acs.nanolett.6c03098",
+    "score": 41.5,
+    "url": "https://doi.org/10.1021/acs.nanolett.6c03098",
+    "abstract": "Abstract Near-infrared (NIR, 750–2500 nm) imaging is crucial for disease diagnosis, yet conventional wide-field bioimaging yields only two-dimensional (2D) information without depth. Here, we report a ratiometric fluorescence strategy for tissue depth determination using α-NaTmF4@NaErF4@NaYF4 nanoprobes. Under 808 nm excitation, interfacial cascade energy transfer between Tm3+ and Er3+ ions enhanc"
   },
   {
     "title": "Accelerating Intramolecular Nonradiative Decay via GSH‐Triggered Reassembly of Semiconducting Polymer Nanoprobes for Activatable NIR‐II Phototheranostics",
