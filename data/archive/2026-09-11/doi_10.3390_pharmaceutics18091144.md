@@ -1,0 +1,16 @@
+---
+title: "Programmable Organic A2S-TT NPs for NIR-II/Photoacoustic Imaging-Enabled Precision Therapy"
+journal: "Pharmaceutics"
+date: 2026-9-10
+doi: "10.3390/pharmaceutics18091144"
+score: 55.0/100
+---
+
+## 链接
+https://doi.org/10.3390/pharmaceutics18091144
+
+## 摘要
+<jats:p>Background: Triple-negative breast cancer (TNBC) is a highly aggressive subtype of breast cancer characterized by significant treatment challenges and poor prognosis. Traditional therapies such as surgical resection, radiotherapy, and chemotherapy often suffer from limitations including insufficient therapeutic specificity, potential damage to normal tissues, and limited imaging capability. The integrated diag{Pareja, 2018 #13}nosis-treatment platform combines diagnostic and therapeutic functions, offering a novel approach for real-time tumor monitoring and precision therapy. Methods: Accordingly, this study designed and developed an integrated diagnostic and therapeutic platform called A2S-TT NPs, utilizing self-assembled nanoparticles incorporating organic conjugated molecules for precise photodynamic therapy (PDT) guided by dual modalities of Near-infrared II (NIR-II) fluorescence imaging and photoacoustic imaging (PA). Results: Under 808 nm laser excitation, A2S-TT NPs efficiently generated reactive oxygen species (ROS) at the tumor site, inducing mitochondrial membrane potential disruption and DNA damage to activate apoptosis. In vitro experiments demonstrated that A2S-TT NPs exhibited intense NIR-II fluorescence and photoacoustic signals, showcasing excellent dual-modal imaging potential. Moreover, it demonstrated minimal cytotoxicity in the absence of light exposure but significantly enhanced tumor cell killing under laser irradiation, demonstrating superior biosafety and photodynamic efficacy. In vivo studies further confirmed that A2S-TT NPs effectively accumulated at tumor sites, enabling visualization-based monitoring through its mediated NIR-II and PA dual-modal imaging. Additionally, A2S-TT NPs-mediated PDT exhibited remarkable tumor-suppressive effects while avoiding significant damage to normal tissues. Discussion: This study constructs a novel PA/NIR-II dual-modal imaging-guided PDT platform based on donor–acceptor conjugated polymer A2S-TT NPs for integrated TNBC theranostics. PA provides high-resolution deep-tissue imaging, while NIR-II fluorescence offers high sensitivity and deep penetration; their complementary strengths support precise tumor localization and real-time therapeutic monitoring. Under dual-modal guidance, A2S-TT NPs enrich in tumors and generate abundant ROS upon 808 nm laser irradiation to boost PDT efficacy. In vitro and in vivo biosafety tests confirm its favorable biocompatibility with minimal systemic toxicity at therapeutic doses. Conclusions: In conclusion, A2S-TT NPs achieved precise, efficient, safe, and controllable PDT through dual-mode imaging using NIR-II and PA, providing a novel strategy with clinical translation potential for the integrated diagnosis and treatment of TNBC.</jats:p>
+
+## 六维评分
+主题 12.0 / 方法 15.0 / 期刊 8.0 / 关联 0.0 / 应用 10.0 / 归档 10.0
