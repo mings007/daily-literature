@@ -63,6 +63,24 @@
     "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> Conventional periodontitis management relies on invasive, operator‐dependent diagnostic methods and treatments that do not adapt to the spatially heterogeneous and evolving periodontal microenvironment. To address these limitations, a heterogeneous microenvironment‐responsive theranostic platform (GT/DAzyme) was developed using a CuMo heteronuclear diatom"
   },
   {
+    "title": "Combinatorial Construction of a NIR-II Polymethine Dye Library",
+    "journal": "Journal of the American Chemical Society",
+    "date": "2026-9-16",
+    "doi": "10.1021/jacs.6c13760",
+    "score": 37.0,
+    "url": "https://doi.org/10.1021/jacs.6c13760",
+    "abstract": "<jats:title>Abstract</jats:title> <jats:p>A comprehensive NIR-II polymethine dye library is essential for unraveling reliable structure-property relationships, enabling rational design, and supporting biomedical research. Yet current libraries lack the diversity and systematicity needed to establish reliable structure–property relationships, let alone to enable effective probe design and screening"
+  },
+  {
+    "title": "Ultra‐Bright and pH‐Stable DBCO‐Capped Gold Clusters as NIR‐II Gram‐Typing Nanoprobes for Deciphering Microgravity‐Related Gut Bacterial Restructuring in Rats",
+    "journal": "Small",
+    "date": "2026-9-16",
+    "doi": "10.1002/smll.75762",
+    "score": 39.0,
+    "url": "https://doi.org/10.1002/smll.75762",
+    "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> Microgravity‐induced alterations of gut microbiota are implicated in gastrointestinal pathology during spaceflight, yet conventional 16S rRNA sequencing lacks the resolution to remotely track real‐time spatial dynamics of in situ bacteria. Here, we develop ultrabright, pH‐stable DBCO‐capped gold nanoclusters (AuNCs@DBCO) as NIR‐II nanoprobes for selective"
+  },
+  {
     "title": "Carboxylesterase-Activated NIR-II Thioxanthene Probe for Enhanced Photoacoustic Imaging and Type I Phototherapy of Hepatocellular Carcinoma",
     "journal": "Analytical Chemistry",
     "date": "2026-9-13",
@@ -367,6 +385,15 @@
     "score": 33.0,
     "url": "https://doi.org/10.1073/pnas.2625351123",
     "abstract": "（无摘要）"
+  },
+  {
+    "title": "Depth estimation from wavelength-dependent fluorescence spread profiles across NIR-I and NIR-II",
+    "journal": "Journal of Biomedical Optics",
+    "date": "2026-09-16",
+    "doi": "10.1117/1.jbo.31.9.096004",
+    "score": 38.0,
+    "url": "https://doi.org/10.1117/1.jbo.31.9.096004",
+    "abstract": "SignificanceWide-field fluorescence-guided imaging is inherently depth ambiguous. Multispectral imaging across NIR-I and NIR-II may encode depth because longer-wavelength fluorescence undergoes less diffuse broadening in tissue.AimThe study aims to determine whether wavelength-dependent radial spread profiles of subsurface indocyanine green (ICG) fluorescence can be used to estimate depth from a s"
   },
   {
     "title": "3D NIR-II FMT-XCT imaging for quantitative analysis of PD-L1 expression in lung cancer and tumor-draining lymph nodes facilitating immunotherapy efficacy assessment: an exploratory study",
