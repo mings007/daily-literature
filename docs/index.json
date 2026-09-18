@@ -387,6 +387,15 @@
     "abstract": "（无摘要）"
   },
   {
+    "title": "Thermosensitive NIR-II fluorescence nanotracer for targeted detection of sentinel lymph nodes",
+    "journal": "Journal of Nanobiotechnology",
+    "date": "2026-09-17",
+    "doi": "10.1186/s12951-026-05083-w",
+    "score": 52.0,
+    "url": "https://doi.org/10.1186/s12951-026-05083-w",
+    "abstract": "Current tracers for sentinel lymph node (SLN) biopsy in breast cancer suffer from limitations including poor accumulation, short retention times, and background staining interference at the surgical site. To address these shortcomings, we developed a dual-functional thermoresponsive nanotracer based on PbS quantum dots functionalized with poly(N-isopropylacrylamide) (PNIPAM) and polymannose (M₅₀),"
+  },
+  {
     "title": "Depth estimation from wavelength-dependent fluorescence spread profiles across NIR-I and NIR-II",
     "journal": "Journal of Biomedical Optics",
     "date": "2026-09-16",
@@ -394,6 +403,24 @@
     "score": 38.0,
     "url": "https://doi.org/10.1117/1.jbo.31.9.096004",
     "abstract": "SignificanceWide-field fluorescence-guided imaging is inherently depth ambiguous. Multispectral imaging across NIR-I and NIR-II may encode depth because longer-wavelength fluorescence undergoes less diffuse broadening in tissue.AimThe study aims to determine whether wavelength-dependent radial spread profiles of subsurface indocyanine green (ICG) fluorescence can be used to estimate depth from a s"
+  },
+  {
+    "title": "Ultrabright NIR-II fluorophores enabled by noncovalent conformational locking for in vivo inflammation imaging",
+    "journal": "Science Advances",
+    "date": "2026-09-16",
+    "doi": "10.1126/sciadv.aeh5112",
+    "score": 54.0,
+    "url": "https://doi.org/10.1126/sciadv.aeh5112",
+    "abstract": "Ultrabright fluorophores emitting in the second near-infrared (NIR-II, 1000–1700 nm) window are highly desirable for biomedical and optoelectronic applications but remain rare, because fluorescence brightness requires the simultaneous realization of a large absorption coefficient (ε) and a high photoluminescence quantum yield (Φ PL ), two parameters that are inherently difficult to balance. Here, "
+  },
+  {
+    "title": "β‑NaYbF4: Gd/Ce/Tm@CaF2‑PVP Core–Shell Nanoparticles for Enhanced NIR‑II Photothermal Therapy",
+    "journal": "Research Square",
+    "date": "2026-09-16",
+    "doi": "10.21203/rs.3.rs-10640764/v1",
+    "score": 26.0,
+    "url": "https://doi.org/10.21203/rs.3.rs-10640764/v1",
+    "abstract": "（无摘要）"
   },
   {
     "title": "3D NIR-II FMT-XCT imaging for quantitative analysis of PD-L1 expression in lung cancer and tumor-draining lymph nodes facilitating immunotherapy efficacy assessment: an exploratory study",
