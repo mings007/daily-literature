@@ -54,6 +54,24 @@
     "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> The risk of tumor recurrence and insufficient immune responses are formidable challenges for cancer therapy based on mild‐temperature second near‐infrared region (NIR‐II) photothermal therapy (PTT). Herein, we report a multifunctional NIR‐II phototheranostic agent (Cu‐P/MTO@BTS) that integrates shuttle‐like NIR‐II small‐molecule nanoassemblies with copper"
   },
   {
+    "title": "Heteroatom Acceptor Engineering Boosts NIR‑II Phototheranostics of Quinoid–Donor–Acceptor Semiconducting Polymers",
+    "journal": "Advanced Functional Materials",
+    "date": "2026-9-21",
+    "doi": "10.1002/adfm.78564",
+    "score": 64.5,
+    "url": "https://doi.org/10.1002/adfm.78564",
+    "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> Multimodal phototheranostics utilizing a single, integrated molecular platform represents a streamlined and efficient strategy for precise cancer therapy. Herein, we first report a rationally engineered quinoid–donor–acceptor (Q–D–A) molecule, designated PAQM‐PT, through deliberate heteroatom acceptor modulation. This designed system concurrently delivers"
+  },
+  {
+    "title": "Delineating precise surgical resection areas: recent advances in NIR-II fluorescence imaging molecular probes",
+    "journal": "Frontiers in Oncology",
+    "date": "2026-9-21",
+    "doi": "10.3389/fonc.2026.1872947",
+    "score": 52.0,
+    "url": "https://doi.org/10.3389/fonc.2026.1872947",
+    "abstract": "<jats:p>Precise delineation of surgical resection margins is a pivotal determinant of oncologic surgery outcomes, with R0 resection serving as the gold standard for maximizing local control and long-term survival. However, intraoperative identification of tumor boundaries remains challenging. Conventional tools such as frozen section pathology offer limited field coverage, are labor-intensive, tim"
+  },
+  {
     "title": "Microenvironment‐Heterogeneity‐Driven Self‐Adaptive CuMo Diatomic Nanozyme Hydrogel for NIR‐II Photoacoustic Imaging‐Assisted Periodontitis Theranostics",
     "journal": "Advanced Functional Materials",
     "date": "2026-9-2",
@@ -394,6 +412,15 @@
     "score": 33.0,
     "url": "https://doi.org/10.1073/pnas.2625351123",
     "abstract": "（无摘要）"
+  },
+  {
+    "title": "NIR-II emissive cadmium-free quantum dots for deep-tissue bioimaging and theranostic applications",
+    "journal": "Next Bioengineering",
+    "date": "2026-09-19",
+    "doi": "10.1016/j.nxbio.2026.100048",
+    "score": 47.5,
+    "url": "https://doi.org/10.1016/j.nxbio.2026.100048",
+    "abstract": "Deep-tissue fluorescence imaging remains a major challenge in cancer diagnostics due to limited tissue penetration, low signal stability, and toxicity concerns associated with conventional fluorophores and cadmium-based quantum dots. Recently, cadmium-free quantum dots exhibiting near-infrared II (NIR-II) emission have emerged as promising nanoprobes for bioimaging and theranostic applications bec"
   },
   {
     "title": "Thermosensitive NIR-II fluorescence nanotracer for targeted detection of sentinel lymph nodes",
