@@ -1,0 +1,16 @@
+---
+title: "A bioluminescence-triggered NIR-II probe via targeted cellulose nanocrystal directional assembly for tumor cell imaging"
+journal: "Chemical Engineering Journal"
+date: 2026-10-07
+doi: "10.1016/j.cej.2026.182778"
+score: 30.0/100
+---
+
+## 链接
+https://doi.org/10.1016/j.cej.2026.182778
+
+## 摘要
+（无摘要）
+
+## 六维评分
+主题 12.0 / 方法 0.0 / 期刊 12.0 / 关联 0.0 / 应用 4.0 / 归档 2.0

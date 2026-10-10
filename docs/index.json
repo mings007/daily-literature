@@ -459,6 +459,15 @@
     "abstract": "（无摘要）"
   },
   {
+    "title": "NIR-II-Accelerated 2D-on-2D Silicene/MOF Heterointerfaces Disrupt Tumor Redox Homeostasis for Targeted Ferroptosis",
+    "journal": "Molecular Pharmaceutics",
+    "date": "2026-10-9",
+    "doi": "10.1021/acs.molpharmaceut.6c00816",
+    "score": 43.0,
+    "url": "https://doi.org/10.1021/acs.molpharmaceut.6c00816",
+    "abstract": "<jats:title>Abstract</jats:title> <jats:p>Catalytic ferroptosis therapy provides an attractive approach for tumor treatment, but its practical efficacy is often limited by insufficient reaction kinetics and the strong redox buffering capacity of the tumor microenvironment. Herein, we report an interface-engineered 2D-on-2D catalytic nanoplatform, SNs/FTC@Apt-P (SFTCP), constructed by integrating s"
+  },
+  {
     "title": "Enabling Efficient NIR‐III Emission Under 808 nm Excitation Through Tm <sup>3+</sup> to Ho <sup>3+</sup> Energy Transfer",
     "journal": "Advanced Optical Materials",
     "date": "2026-10-7",
@@ -502,6 +511,24 @@
     "score": 47.0,
     "url": "https://doi.org/10.1126/sciadv.aed7722",
     "abstract": "<jats:p>Intraoperative fluorescence imaging holds great promise for achieving complete cytoreduction in ovarian cancer, but its clinical utility is currently constrained by the limitations of existing imaging agents. In particular, the leading clinical probe, OTL38, operates in the near-infrared I (NIR-I; 700 to 1000 nanometers) window, which suffers from limited tissue penetration and suboptimal "
+  },
+  {
+    "title": "A bioluminescence-triggered NIR-II probe via targeted cellulose nanocrystal directional assembly for tumor cell imaging",
+    "journal": "Chemical Engineering Journal",
+    "date": "2026-10-07",
+    "doi": "10.1016/j.cej.2026.182778",
+    "score": 30.0,
+    "url": "https://doi.org/10.1016/j.cej.2026.182778",
+    "abstract": "（无摘要）"
+  },
+  {
+    "title": "Side Chain‐Acceptor Dual Engineering of NIR‐II AIEgens for Precision Theranostics of Osteosarcoma",
+    "journal": "Advanced Functional Materials",
+    "date": "2026-10-07",
+    "doi": "10.1002/adfm.78729",
+    "score": 50.0,
+    "url": "https://doi.org/10.1002/adfm.78729",
+    "abstract": "ABSTRACT Osteosarcoma (OS) is an aggressive bone malignancy characterized by early metastatic propensity and poor prognosis. Current standard treatments (surgical resection combined with chemotherapy) are severely constrained by high recurrence rates and pulmonary metastasis, underscoring an urgent need for innovative precision theranostic strategies. Herein, we propose a “side chain‐acceptor dual"
   },
   {
     "title": "An NIR-II-Traceable Nanovaccine Programs Systemic Antigen Residence to Establish Checkpoint-Responsive Progenitor-Exhausted CD8-Positive T-Cell Reservoirs for Effective Cancer Immunotherapy",
