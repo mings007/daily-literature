@@ -513,6 +513,24 @@
     "abstract": "<jats:title>Abstract</jats:title> <jats:p>Stable organic radicals provide distinctive open-shell platforms for near-infrared fluorescence, but their use in NIR-II fluorescence imaging-guided photothermal therapy remains limited. Herein, we report an asymmetric N,O-centered Blatter−phenoxyl diradical (BP) and its nanoparticle formulation (BP-NPs), a water-dispersible nanoplatform prepared by encaps"
   },
   {
+    "title": "Click-Functionalizable Tetrathiafulvalene-Tetrathiolate Diradicaloids as Modular NIR-II Fluorophores",
+    "journal": "Journal of the American Chemical Society",
+    "date": "2026-11-17",
+    "doi": "10.1021/jacs.6c20189",
+    "score": 47.0,
+    "url": "https://doi.org/10.1021/jacs.6c20189",
+    "abstract": "<jats:title>Abstract</jats:title> <jats:p>Near-infrared (NIR) emissive fluorophores are appealing for biological imaging and sensing applications, particularly in the lower-energy NIR-II region (1000–1700 nm). Compared to light in the visible and NIR-I regions, NIR-II light undergoes less absorption and scattering by biological tissues, enabling deeper tissue penetration and higher imaging resolut"
+  },
+  {
+    "title": "Furan π Bridge Strengthens Conformation Locking in Asymmetric D‐A‐π‐D NIR‐II AIEgens for High‐Efficiency Photothermal/NO Synergistic Therapy",
+    "journal": "Advanced Science",
+    "date": "2026-11-15",
+    "doi": "10.1002/advs.78807",
+    "score": 49.5,
+    "url": "https://doi.org/10.1002/advs.78807",
+    "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p> Methicillin‐resistant <jats:italic>Staphylococcus aureus</jats:italic> (MRSA) pneumonia represents a critical threat owing to its high mortality and antibiotic resistance. Near‐infrared II (NIR‐II) fluorescent photothermal therapy (PTT) enables deep‐tissue heating but risks incomplete bacterial clearance and thermal damage. Symmetric donor‐acceptor‐donor "
+  },
+  {
     "title": "Molecular program design for 1064 nm light excited high‐contrast NIR‐IIb fluorescence imaging of murine vascular",
     "journal": "FlexMat",
     "date": "2026-11-14",
@@ -522,6 +540,15 @@
     "abstract": "<jats:title>Abstract</jats:title> <jats:p>Near‐infrared‐IIb (NIR‐IIb) fluorescent imaging with low tissue autofluorescence and high‐resolution visualization of microscopic structures plays a pivotal role in modern precision medicine. However, most NIR‐IIb fluorescent molecules are excited by NIR‐I light and limited to aggregation‐induced quenching, making the development of bright NIR‐IIb‐emitting"
   },
   {
+    "title": "Leveraging Steric Hindrance Engineering in Conjugated Polymers for Enhanced NIR-II Fluorescence Imaging and High-efficiency Photothermal Therapy",
+    "journal": "Chinese Journal of Polymer Science",
+    "date": "2026-11-11",
+    "doi": "10.1007/s10118-026-3868-2",
+    "score": 43.0,
+    "url": "https://doi.org/10.1007/s10118-026-3868-2",
+    "abstract": "（无摘要）"
+  },
+  {
     "title": "Bridging Atom Engineering of Naphthalene Diimide-Based Semiconducting Polymer Dots for NIR-II Imaging-Guided Tumor Photodynamic and Photothermal Therapy",
     "journal": "ACS Applied Nano Materials",
     "date": "2026-11-11",
@@ -529,6 +556,15 @@
     "score": 56.5,
     "url": "https://doi.org/10.1021/acsanm.6c04152",
     "abstract": "<jats:title>Abstract</jats:title> <jats:p>Near-infrared second-window fluorescence imaging (NIR-II FI)-guided synergistic photothermal therapy (PTT) and type-I photodynamic therapy (PDT) hold great promise for noninvasive tumor treatment. However, it is remains highly challenging to develop phototheranostic agents with desired performances, and the systematic exploration of naphthalene diimide (ND"
+  },
+  {
+    "title": "Coordination chemistry of NIR-II chromophore–metal hybrids for deep-tissue cancer theranostics",
+    "journal": "Dalton Transactions",
+    "date": "2026-11-10",
+    "doi": "10.1039/d6dt01459c",
+    "score": 43.0,
+    "url": "https://doi.org/10.1039/d6dt01459c",
+    "abstract": "Coordination of near infrared (NIR) responsive chromophores to transition-metal centers provides a strategy for combining long-wavelength light harvesting with metal-mediated excited-state control. Cyanine dyes, boron dipyrromethenes (BODIPYs), diketopyrrolopyrroles, and other π-extended analogues show intense NIR absorption and fluorescence but frequently suffer from insufficient photostability a"
   },
   {
     "title": "ROS-responsive NIR-II-trackable tea polyphenol-based LYTAC nanotheranostics for precision protein degradation and endometrial receptivity improvement in PCOS",
