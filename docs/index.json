@@ -495,6 +495,24 @@
     "abstract": "<jats:title>Abstract</jats:title> <jats:p>The low oxygen dependence of the type-I sonosensitizers renders them promising agents for the treatment of hypoxic solid tumors. However, the rational design of heavy-atom-free type-I sonosensitizers with NIR-II emission remains challenging. Herein, a series of NIR-II heavy-atom-free sonosensitizers were synthesized. Among them, RBT-TPE02 exhibited pronoun"
   },
   {
+    "title": "LCD-Loaded Ag2S Nanoparticles for NIR-II Fluorescence Imaging and Precision Therapy of Allergic Rhinitis",
+    "journal": "ACS Applied Nano Materials",
+    "date": "2026-11-26",
+    "doi": "10.1021/acsanm.6c04727",
+    "score": 55.0,
+    "url": "https://doi.org/10.1021/acsanm.6c04727",
+    "abstract": "<jats:title>Abstract</jats:title> <jats:p>Allergic rhinitis (AR) is an allergic inflammatory condition driven by immunoglobulin E (IgE) mediated type I hypersensitivity. Upon re-exposure to allergen, mast cells release histamine, which activates the histamine H1 receptor (H1R), leading to cytokine release, recruitment of inflammatory cells, and accumulation of reactive oxygen species (ROS). This c"
+  },
+  {
+    "title": "An FGFR2‐Targeted PET/NIR‐II Dual‐Modal Probe for Metastatic Lymph Node Detection and Intraoperative Guidance in Esophageal Squamous Cell Carcinoma",
+    "journal": "Advanced Science",
+    "date": "2026-11-26",
+    "doi": "10.1002/advs.78806",
+    "score": 46.0,
+    "url": "https://doi.org/10.1002/advs.78806",
+    "abstract": "<jats:title>ABSTRACT</jats:title> <jats:p>Accurate identification of metastatic lymph nodes (LNs) remains a major challenge in esophageal squamous cell carcinoma (ESCC) surgery. Single‐cell RNA sequencing and multiplex immunohistochemistry reveal enrichment of fibroblast growth factor receptor 2 (FGFR2) in metastatic LNs, providing a clinically informed target for molecular imaging. Guided by this"
+  },
+  {
     "title": "A Perspective on NIR-II-Responsive Nanocomposite Hydrogels for On-Demand Drug Delivery",
     "journal": "ACS Applied Nano Materials",
     "date": "2026-11-25",
@@ -502,6 +520,15 @@
     "score": 43.0,
     "url": "https://doi.org/10.1021/acsanm.6c03645",
     "abstract": "<jats:title>Abstract</jats:title> <jats:p>Second near-infrared (NIR-II)-responsive nanocomposite hydrogels have emerged as promising platforms for remotely controlled drug delivery. Advances in nanomaterial engineering and dynamic hydrogel design have enabled precise, externally regulated, and multifunctional control over therapeutic delivery. This article highlights representative photothermal ma"
+  },
+  {
+    "title": "NIR-II Bright Metal–Organic Framework Platform for Dual Deep-Tissue Tumor Imaging and Efficient Photothermal Therapy",
+    "journal": "ACS Applied Bio Materials",
+    "date": "2026-11-25",
+    "doi": "10.1021/acsabm.6c02115",
+    "score": 60.5,
+    "url": "https://doi.org/10.1021/acsabm.6c02115",
+    "abstract": "Theranostic metal-organic frameworks (MOFs) have emerged as promising nanoplatforms for cancer and other disease treatment, and their combination with second near-infrared (NIR-II) fluorescence has opened many functional possibilities for simultaneous imaging and therapy. However, synthesizing NIR-II fluorescent MOFs that combine high brightness with strong absorbance remains a significant challen"
   },
   {
     "title": "NIR-II polymethine fluorophores for brain theranostics: Molecular design, photophysical optimization, and biomedical applications",
